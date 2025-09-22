@@ -21,31 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 1) Configure GitHub Pages (required by deploy-pages)
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # 2) Install & build with Astro
-      - name: Install, build
+      # Build AND upload artifact (Astro action does the upload automatically)
+      - name: Install & Build (Astro)
         uses: withastro/action@v3
-        with:
-          # If your project uses npm, this is auto-detected.
-          # If you use pnpm/yarn/bun, commit the lockfile.
-          node-version: 20
-
-      # 3) Upload the built site (./dist) as the Pages artifact
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
