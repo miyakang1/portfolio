@@ -1,91 +1,91 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Miya Kang",
+  title: "Software Developer • iOS & Full-Stack",
+  description:
+    "Portfolio of Miya Kang — projects across iOS (SwiftUI), React/TypeScript, automation, and workflow tools.",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
+    email: "you@yourdomain.com",
     linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    twitter: "https://x.com/yourhandle",
+    github: "https://github.com/yourusername",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m a CS grad who ships practical tools: an iOS Charades game with AI-generated word lists, an inventory app for small businesses, a geo-aware timekeeping checker, and a WordPress site with Google Workspace admin. I enjoy clean UX, automation, and turning messy processes into simple apps.",
+  skills: [
+    "SwiftUI",
+    "iOS",
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Python",
+    "SQLite/PostgreSQL",
+    "Tailwind CSS",
+    "WordPress",
+    "Git/GitHub",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Charades iOS App",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "SwiftUI party game with AI-generated word lists (themes like colors, brands, movies), orientation lock, and polished animations.",
+      link: "https://github.com/yourusername/charades", // App Store/TestFlight or repo
+      skills: ["SwiftUI", "iOS", "Xcode"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "AIMS for TLJ",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Mobile app to check stock levels and streamline inventory audits; fast item lookup and status validation for staff.",
+      link: "https://github.com/yourusername/aims", // demo or repo
+      skills: ["React Native", "TypeScript", "SQLite/REST"],
     },
     {
-      name: "ExtensionKit",
+      name: "OuterStateMonitor",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Program + internal web page that flags clock-ins from outside Pennsylvania and verifies clock-in/out compliance.",
+      link: "https://github.com/yourusername/outerstatemonitor", // internal? if private, use a short write-up page
+      skills: ["Node/Python", "Geolocation", "Express/Flask", "Web"],
+    },
+    {
+      name: "EdenCare Website & Workspace",
+      description:
+        "Built the official company site on WordPress and managed Google Workspace (users, permissions, security).",
+      link: "https://your-live-site-or-case-study.com", // live site or case study
+      skills: ["WordPress", "DNS/SSL", "Google Workspace"],
     },
   ],
+
+  // Fill these out when you’re ready; empty sections are hidden by the theme.
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Med Learning Group",
+      title: "Outcomes & Accreditation Intern",
+      dateRange: "2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Coordinated CME/CPE paperwork and submissions (CPE Monitor).",
+        "Automated repetitive document tasks and improved tracking workflows.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Eden Home Care Systems LLC",
+      title: "Web & IT Support",
+      dateRange: "2024–2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Launched WordPress site; managed Google Workspace users and permissions.",
+        "Set up SSL, domain/DNS, and basic security policies.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Syracuse University",
+      degree: "B.S. in Computer Science",
+      dateRange: "— 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "AEW Facilitator & CS course grader (multiple terms).",
+        "Volunteer Coordinator, Hendricks Chapel Food Pantry.",
       ],
     },
   ],
