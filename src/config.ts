@@ -77,36 +77,79 @@ export const siteConfig = {
     },
   ],
 
-  experience: [
-    {
-      company: "Eden Home Care Systems LLC",
-      title: "Technology (Front-End) Intern",
-      dateRange: "Feb 2025 – Present",
-      bullets: [
-        "Built employee location verification tool (program + web) to improve compliance for remote workers.",
-        "Develop and maintain edencarepa.com; set up and administer Google Workspace.",
-        "Contributed backend components for an internal AI chatbot (DeepSeek-R1 via Ollama, RAG on ChromaDB).",
-      ],
-    },
-    {
-      company: "Med Learning Group LLC",
-      title: "Outcomes & Accreditation Intern",
-      dateRange: "Nov 2024 – Present",
-      bullets: [
-        "Prepared and distributed program paperwork for faculty, chairs, patients, and guest speakers.",
-        "Maintained learner records in ACPE Monitor and supported accurate CME/CPE reporting.",
-      ],
-    },
-    {
-      company: "Syracuse University",
-      title: "Food Pantry Coordinator",
-      dateRange: "Mar 2024 – Dec 2024",
-      bullets: [
-        "Managed inventory, donations, logistics, and volunteers serving ~200 visitors weekly.",
-        "Analyzed visitor data to identify usage patterns and improve distribution efficiency.",
-      ],
-    },
-  ],
+experience: [
+  // ——— Professional Experience ———
+  {
+    company: "Eden Home Care Systems LLC",
+    title: "Technology (Front-End) Intern",
+    dateRange: "Feb 2025 – Present",
+    bullets: [
+      "Built an employee location-verification tool (program + web) to improve remote clock-in compliance.",
+      "Maintain edencarepa.com; administer Google Workspace (users, permissions, security).",
+      "Contributed backend pieces for an internal AI chatbot (DeepSeek-R1 via Ollama, RAG on ChromaDB).",
+    ],
+  },
+  {
+    company: "Med Learning Group LLC",
+    title: "Outcomes & Accreditation Intern",
+    dateRange: "Nov 2024 – Present",
+    bullets: [
+      "Prepared and distributed program paperwork for faculty, chairs, patients, and guest speakers.",
+      "Maintained learner records in ACPE/CPE Monitor and supported accurate CME/CPE reporting.",
+    ],
+  },
+
+  // ——— Academic & Campus Experience ———
+  {
+    company: "Syracuse University — College of Engineering & Computer Science",
+    title: "Academic Excellence Workshop (AEW) Facilitator",
+    dateRange: "Aug 2022 – Dec 2024",
+    bullets: [
+      "Led weekly small-group sessions (~8 students) reinforcing Pre-Calc, Calc I, and Calc II.",
+      "Collaborated with course developers to align AEW materials with departmental curriculum.",
+    ],
+  },
+  {
+    company: "Syracuse University",
+    title: "Food Pantry Volunteer Coordinator",
+    dateRange: "Mar 2024 – Dec 2024",
+    bullets: [
+      "Managed operations: inventory, donations, logistics, and volunteers to serve ~200 visitors weekly.",
+      "Analyzed visitor data to identify usage patterns and improve distribution efficiency.",
+      "Trained and supervised volunteers to ensure equitable, consistent service delivery.",
+    ],
+  },
+  {
+    company: "Syracuse University — College of Engineering & Computer Science",
+    title: "Computer Graphics (CIS 425) Grader",
+    dateRange: "Jan 2024 – May 2024",
+    bullets: [
+      "Graded 200+ OpenGL projects against professor criteria (Bezier surfaces, fractals, texture mapping).",
+      "Performed detailed code reviews and visual checks for correctness, functionality, and spec alignment.",
+      "Hosted weekly office hours (~2 hrs/week) for debugging and project guidance.",
+    ],
+  },
+  {
+    company: "Syracuse University — College of Engineering & Computer Science",
+    title: "Computer Organization & Programming Systems (CIS 341) Peer Learning Assistant",
+    dateRange: "Aug 2023 – Dec 2023",
+    bullets: [
+      "Tutored computer architecture topics (instruction sets, pipelining, memory hierarchy, low-level systems).",
+      "Supported lectures with supplemental explanations and extra practice problems during office hours.",
+    ],
+  },
+  {
+    company: "Syracuse University",
+    title: "Peer Leader — First Year Seminar (FYS 101)",
+    dateRange: "Jun 2023 – Dec 2023",
+    bullets: [
+      "Co-facilitated weekly sessions for a cohort of 30+ first-year students; fostered an inclusive classroom.",
+      "Led interactive discussions to build belonging and academic success (~2 hrs/week).",
+      "Mentored students on resources, personal development, and transition to college life.",
+    ],
+  },
+],
+
 
   education: [
     {
