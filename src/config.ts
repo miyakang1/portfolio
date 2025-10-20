@@ -5,10 +5,9 @@ export const siteConfig = {
     "Portfolio of Miya Kang — projects across iOS (SwiftUI), React/TypeScript, automation, and workflow tools.",
   accentColor: "#1d4ed8",
   social: {
-    email: "you@yourdomain.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/yourhandle",
-    github: "https://github.com/yourusername",
+    email: "xiaoyakang@yahoo.com",
+    linkedin: "www.linkedin.com/in/miya-kang-38635432b",
+    github: "https://github.com/miyakang1",
   },
   aboutMe:
     "I’m a CS grad who ships practical tools: an iOS Charades game with AI-generated word lists, an inventory app for small businesses, a geo-aware timekeeping checker, and a WordPress site with Google Workspace admin. I enjoy clean UX, automation, and turning messy processes into simple apps.",
