@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Miya Kang",
   title: "Software Developer • iOS & Full-Stack",
   description:
-    "CS grad (Syracuse ’25, GPA 3.68) focused on SwiftUI, React/TypeScript, and solid software systems—shipping clean UX, automation, and practical tools.",
+    "CS grad (Syracuse ’25) focused on SwiftUI, React/TypeScript, and solid software systems—shipping clean UX, automation, and practical tools.",
   accentColor: "#1d4ed8",
   social: {
     email: "xiaoyakang@yahoo.com",
