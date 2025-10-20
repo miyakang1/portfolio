@@ -37,14 +37,14 @@ export const siteConfig = {
       name: "Charades iOS App",
       description:
         "SwiftUI (MVVM) party game with tilt gestures, polished animations, and GPT-powered dynamic deck generation via proxy; persistent reusable decks.",
-      link: "https://github.com/miyakang1", // replace with repo/TestFlight when public
+      //link: "https://github.com/miyakang1", // replace with repo/TestFlight when public
       skills: ["SwiftUI", "iOS", "Xcode", "TypeScript/Node (proxy)"],
     },
     {
       name: "AIMS — Inventory Management (Bakeries)",
       description:
         "React Native/Expo front-end for inbound/outbound reports and inventory checks; secure key signing & Android builds; replaces manual logs with real-time stock/sales.",
-      link: "https://github.com/miyakang1", // replace with repo/case study
+      //link: "https://github.com/miyakang1", // replace with repo/case study
       skills: ["React Native", "TypeScript", "SQLite/REST", "Expo"],
     },
     {
@@ -58,21 +58,21 @@ export const siteConfig = {
       name: "Employee Location Verification Tool",
       description:
         "Program + internal web page that flags clock-ins from outside PA and verifies clock-in/out compliance for remote work policies.",
-      link: "https://github.com/miyakang1", // replace with internal write-up if private
+      //link: "https://github.com/miyakang1", // replace with internal write-up if private
       skills: ["Node.js/Python", "Geolocation", "Express/Flask", "Web"],
     },
     {
       name: "Food Pantry Data & Web Prototype (CuseHacks 2024)",
       description:
         "Analyzed multi-year survey data; React.js prototype visualizing usage trends and pantry info. Received Community Engagement & Volunteerism Award.",
-      link: "https://github.com/miyakang1", // replace with demo/case study
+      //link: "https://github.com/miyakang1", // replace with demo/case study
       skills: ["React", "Data Analysis", "Visualization"],
     },
     {
       name: "Endless Runner (CIS 425 Final)",
       description:
         "C++/OpenGL game with real-time rendering, collision detection, and timer-driven animations.",
-      link: "https://github.com/miyakang1", // replace with repo if public
+      //link: "https://github.com/miyakang1", // replace with repo if public
       skills: ["C++", "OpenGL"],
     },
   ],
@@ -154,7 +154,7 @@ experience: [
   education: [
     {
       school: "Syracuse University",
-      degree: "B.S. in Computer Science (GPA 3.68)",
+      degree: "B.S. in Computer Science",
       dateRange: "May 2025",
       achievements: [
         "Grader, Computer Graphics (CIS 425): graded 200+ OpenGL projects (Spring 2024).",
